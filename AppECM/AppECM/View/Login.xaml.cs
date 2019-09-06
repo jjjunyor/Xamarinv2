@@ -22,7 +22,6 @@ namespace AppECM.View
         {
             InitializeComponent();
             var login = new LoginViewModel();
-            
             BindingContext = login;
         }
     }

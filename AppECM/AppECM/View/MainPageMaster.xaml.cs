@@ -20,7 +20,6 @@ namespace AppECM.View
             InitializeComponent();
             ListView = MenuItemsListView;
             userName = lblNameUser;
-            
             BindingContext = new MainPageMasterViewModel();
         }
     }

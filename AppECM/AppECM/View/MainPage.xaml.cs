@@ -42,22 +42,13 @@ namespace AppECM.View
                  case 3:
                     new DataBase.UserDataBase().DeleteAllUser();
                     App.Current.MainPage = new View.Login();
-                   
                    return;
-            
-                   
             }
 
             var page = (Page)Activator.CreateInstance(item.TargetType);
             page.Title = item.Title;
             Detail = new NavigationPage(page);
             IsPresented = false;
-
-
-
-
-
-
         }
     }
 }
